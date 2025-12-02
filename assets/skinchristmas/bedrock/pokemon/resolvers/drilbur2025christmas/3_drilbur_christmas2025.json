@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:drilbur",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "cobblemon:drilbur",
+      "model": "skinchristmas:drilbur2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/drilbur2025christmas/drilbur_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/drilbur2025christmas/drilbur_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/drilbur2025christmas/drilbur_shiny_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/drilbur2025christmas/drilbur_emmisive_shiny_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

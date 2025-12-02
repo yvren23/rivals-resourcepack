@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:sandygast",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "cobblemon:sandygast",
+      "model": "skinchristmas:sandygast2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/sandygast2025christmas/sandygast_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/sandygast2025christmas/sandygast_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/sandygast2025christmas/sandygast_shiny_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/sandygast2025christmas/sandygast_shiny_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}
