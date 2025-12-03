@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["christmas2025"],
-      "poser": "cobblemon:palossand",
+      "poser": "skinchristmas:palossand2025christmas",
       "model": "skinchristmas:palossand2025christmas.geo",
       "texture": "skinchristmas:textures/pokemon/palossand2025christmas/palossand_christmas2025.png",
       "layers": []

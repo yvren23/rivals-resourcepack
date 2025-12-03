@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.palossand.ground_idle": {
+		"animation.palossand2025christmas.ground_idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -77,7 +77,7 @@
 				}
 			}
 		},
-		"animation.palossand.blink": {
+		"animation.palossand2025christmas.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -96,7 +96,7 @@
 				}
 			}
 		},
-		"animation.palossand.shock": {
+		"animation.palossand2025christmas.shock": {
 			"loop": true,
 			"bones": {
 				"eye_left": {
@@ -107,7 +107,7 @@
 				}
 			}
 		},
-		"animation.palossand.angry": {
+		"animation.palossand2025christmas.angry": {
 			"loop": true,
 			"bones": {
 				"eye_angry_left": {
@@ -118,7 +118,7 @@
 				}
 			}
 		},
-		"animation.palossand.sad": {
+		"animation.palossand2025christmas.sad": {
 			"loop": true,
 			"bones": {
 				"eye_sad_left": {
@@ -129,7 +129,7 @@
 				}
 			}
 		},
-		"animation.palossand.happy": {
+		"animation.palossand2025christmas.happy": {
 			"loop": true,
 			"bones": {
 				"eye_happy_left": {
@@ -140,7 +140,7 @@
 				}
 			}
 		},
-		"animation.palossand.recoil": {
+		"animation.palossand2025christmas.recoil": {
 			"loop": true,
 			"bones": {
 				"eye_recoil_left": {
@@ -151,7 +151,7 @@
 				}
 			}
 		},
-		"animation.palossand.hidden": {
+		"animation.palossand2025christmas.hidden": {
 			"animation_length": 0.25,
 			"bones": {
 				"arms": {

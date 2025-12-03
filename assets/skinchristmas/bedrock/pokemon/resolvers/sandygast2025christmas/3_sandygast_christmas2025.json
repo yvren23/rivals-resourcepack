@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["christmas2025"],
-      "poser": "cobblemon:sandygast",
+      "poser": "skinchristmas:sandygast2025christmas",
       "model": "skinchristmas:sandygast2025christmas.geo",
       "texture": "skinchristmas:textures/pokemon/sandygast2025christmas/sandygast_christmas2025.png",
       "layers": [

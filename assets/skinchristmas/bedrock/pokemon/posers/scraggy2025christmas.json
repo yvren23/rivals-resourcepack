@@ -13,7 +13,7 @@
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": ["WALK"],
-      "animations": ["bedrock(scraggy2025christmas, ground_walk)"]
+      "animations": ["bedrock(scraggy2025christmas, walk)"]
     }
   }
 }

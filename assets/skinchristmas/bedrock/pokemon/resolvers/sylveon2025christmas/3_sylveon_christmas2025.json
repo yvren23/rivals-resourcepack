@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["christmas2025"],
-      "poser": "cobblemon:sylveon",
+      "poser": "skinchristmas:sylveon2025christmas",
       "model": "skinchristmas:sylveon2025christmas.geo",
       "texture": "skinchristmas:textures/pokemon/sylveon2025christmas/sylveon_christmas2025.png",
       "layers": [
