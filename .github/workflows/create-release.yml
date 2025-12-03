@@ -2,8 +2,8 @@ name: Create Resource Pack Release
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:  # Allows manual triggering
+    branches: [ main, dev ]
+  workflow_dispatch: 
 
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # Fetch full history
+        fetch-depth: 0 
         token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Configure Git
@@ -25,11 +25,25 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
     
+    - name: Set release variables
+      run: |
+        if [ "${{ github.ref_name }}" = "main" ]; then
+          echo "RELEASE_TAG=release" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Latest Resource Pack Release" >> $GITHUB_ENV
+          echo "RELEASE_FILE=release.zip" >> $GITHUB_ENV
+          echo "IS_PRERELEASE=false" >> $GITHUB_ENV
+        else
+          echo "RELEASE_TAG=dev-release" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Latest Dev Resource Pack Release" >> $GITHUB_ENV
+          echo "RELEASE_FILE=dev-release.zip" >> $GITHUB_ENV
+          echo "IS_PRERELEASE=true" >> $GITHUB_ENV
+        fi
+    
     - name: Create Resource Pack Archive
       uses: thedoctor0/zip-release@0.7.5
       with:
         type: 'zip'
-        filename: 'release.zip'
+        filename: '${{ env.RELEASE_FILE }}'
         exclusions: |
           *.git*
           *.github*
@@ -45,34 +59,34 @@ jobs:
     - name: Verify archive contents and generate hash
       run: |
         echo "Archive created successfully!"
-        ls -la release.zip
+        ls -la ${{ env.RELEASE_FILE }}
         echo "Archive contents (first 20 entries):"
-        unzip -l release.zip | head -20
+        unzip -l ${{ env.RELEASE_FILE }} | head -20
         echo ""
         echo "Generating hashes..."
-        echo "SHA256: $(sha256sum release.zip | cut -d' ' -f1)"
-        echo "SHA1: $(sha1sum release.zip | cut -d' ' -f1)"
-        echo "MD5: $(md5sum release.zip | cut -d' ' -f1)"
+        echo "SHA256: $(sha256sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)"
+        echo "SHA1: $(sha1sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)"
+        echo "MD5: $(md5sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)"
         
         # Save hashes to environment for use in release notes
-        echo "PACK_SHA256=$(sha256sum release.zip | cut -d' ' -f1)" >> $GITHUB_ENV
-        echo "PACK_SHA1=$(sha1sum release.zip | cut -d' ' -f1)" >> $GITHUB_ENV
-        echo "PACK_MD5=$(md5sum release.zip | cut -d' ' -f1)" >> $GITHUB_ENV
-        echo "PACK_SIZE=$(stat -f%z release.zip 2>/dev/null || stat -c%s release.zip)" >> $GITHUB_ENV
+        echo "PACK_SHA256=$(sha256sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SHA1=$(sha1sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_MD5=$(md5sum ${{ env.RELEASE_FILE }} | cut -d' ' -f1)" >> $GITHUB_ENV
+        echo "PACK_SIZE=$(stat -f%z ${{ env.RELEASE_FILE }} 2>/dev/null || stat -c%s ${{ env.RELEASE_FILE }})" >> $GITHUB_ENV
     
     - name: Create GitHub Release
       uses: softprops/action-gh-release@v2
       with:
-        tag_name: release
-        name: "Latest Resource Pack Release"
+        tag_name: ${{ env.RELEASE_TAG }}
+        name: ${{ env.RELEASE_NAME }}
         body: |
           🎮 **Cobblemon Rivals Resource Pack**
           
           Automatically generated resource pack for Minecraft servers.
           
           ## 📥 Usage
-          - **Download:** Click `release.zip` below to download manually
-          - **ForcePacks URL:** `https://github.com/${{ github.repository }}/releases/download/release/release.zip`
+          - **Download:** Click `${{ env.RELEASE_FILE }}` below to download manually
+          - **ForcePacks URL:** `https://github.com/${{ github.repository }}/releases/download/${{ env.RELEASE_TAG }}/${{ env.RELEASE_FILE }}`
           - **Direct integration:** Use the URL above in your server's ForcePacks plugin configuration
           
           ## 🔐 File Verification
@@ -87,8 +101,8 @@ jobs:
           **Commit:** [`${{ github.sha }}`](https://github.com/${{ github.repository }}/commit/${{ github.sha }})
           **Branch:** ${{ github.ref_name }}
         files: |
-          release.zip
-        prerelease: false
+          ${{ env.RELEASE_FILE }}
+        prerelease: ${{ env.IS_PRERELEASE }}
         make_latest: true
         generate_release_notes: false
         fail_on_unmatched_files: false
