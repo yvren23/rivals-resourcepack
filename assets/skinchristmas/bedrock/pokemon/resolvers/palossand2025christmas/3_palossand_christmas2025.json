@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:palossand",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "skinchristmas:palossand2025christmas",
+      "model": "skinchristmas:palossand2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/palossand2025christmas/palossand_christmas2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/palossand2025christmas/palossand_shiny_christmas2025.png"
+    }
+  ]
+}

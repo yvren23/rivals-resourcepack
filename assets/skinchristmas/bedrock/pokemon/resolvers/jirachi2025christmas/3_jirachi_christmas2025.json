@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:jirachi",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "skinchristmas:jirachi2025christmas",
+      "model": "skinchristmas:jirachi2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/jirachi2025christmas/jirachi_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/jirachi2025christmas/jirachi_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/jirachi2025christmas/jirachi_shiny_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/jirachi2025christmas/jirachi_shiny_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

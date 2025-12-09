@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:scraggy",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "skinchristmas:scraggy2025christmas",
+      "model": "skinchristmas:scraggy2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/scraggy2025christmas/scraggy_christmas2025.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/scraggy2025christmas/scraggy_shiny_christmas2025.png"
+    }
+  ]
+}

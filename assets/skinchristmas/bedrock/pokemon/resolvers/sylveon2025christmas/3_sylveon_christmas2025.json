@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:sylveon",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["christmas2025"],
+      "poser": "skinchristmas:sylveon2025christmas",
+      "model": "skinchristmas:sylveon2025christmas.geo",
+      "texture": "skinchristmas:textures/pokemon/sylveon2025christmas/sylveon_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/sylveon2025christmas/sylveon_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny", "christmas2025"
+      ],
+      "texture": "skinchristmas:textures/pokemon/sylveon2025christmas/sylveon_shiny_christmas2025.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinchristmas:textures/pokemon/sylveon2025christmas/sylveon_shiny_emmisive_christmas2025.png",
+          "emissive": "true"
+        }
+      ]
+    }
+  ]
+}

@@ -144,6 +144,8 @@
   {"predicate": {"custom_model_data":9020}, "model": "item/crate/crate_keys/ranked_epic_key"},
   {"predicate": {"custom_model_data":9021}, "model": "item/crate/crate_keys/ranked_magical_key"},
   {"predicate": {"custom_model_data":9022}, "model": "item/crate/crate_keys/ranked_legendary_key"},
-{"predicate": {"custom_model_data":9023}, "model": "item/crate/crate_keys/halloween_key"}
+{"predicate": {"custom_model_data":9023}, "model": "item/crate/crate_keys/halloween_key"},
+{"predicate": {"custom_model_data":9024}, "model": "item/crate/crate_keys/jolly_key"},
+{"predicate": {"custom_model_data":9025}, "model": "item/crate/crate_keys/glacial_key"}
 ]
 }
