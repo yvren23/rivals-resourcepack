@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/other/gym_badges/s3_rock_badge"
+    "layer0": "item/other/gym_badges/season3_badges/s3_rock_badge"
   }
 }
