@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/events/valentines/valentines_balloon_ticket"
+  }
+}
