@@ -1,0 +1,24 @@
+{
+   "species":"cobblemon:tinkaton",
+   "order":2,
+   "variations":[
+      {
+         "aspects":[
+            "halloweencrate"
+         ],
+         "poser":"cobblemon:halloween_tinkaton",
+         "model":"cobblemon:halloween_tinkaton.geo",
+         "texture":"cobblemon:textures/pokemon/halloweencrate/tinkaton.png",
+         "layers":[]
+      },
+      {
+         "aspects":[
+            "halloweencrate" , "shiny"
+         ],
+         "poser":"cobblemon:halloween_tinkaton",
+         "model":"cobblemon:halloween_tinkaton.geo",
+         "texture":"cobblemon:textures/pokemon/halloweencrate/tinkaton_shiny.png",
+         "layers":[]
+      }
+   ]
+}

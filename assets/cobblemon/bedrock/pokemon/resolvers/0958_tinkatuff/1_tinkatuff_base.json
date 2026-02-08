@@ -5,7 +5,7 @@
     {
       "aspects": ["crystalcrate"],
       "poser": "cobblemon:tinkatuff",
-      "model": "cobblemon:tinkatuff.geo",
+      "model": "cobblemon:1.6_tinkatuff.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/tinkatuff.png",
       "layers": [
         {

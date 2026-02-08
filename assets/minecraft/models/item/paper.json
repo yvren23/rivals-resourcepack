@@ -724,18 +724,6 @@
       "predicate": {
         "custom_model_data": 122
       }
-    },
-	    {
-      "model": "item/events/valentines/valentines_umbreon_ticket",
-      "predicate": {
-        "custom_model_data": 123
-      }
-    },
-	    {
-      "model": "item/events/valentines/valentines_balloon_ticket",
-      "predicate": {
-        "custom_model_data": 124
-      }
     }
     ]
 }

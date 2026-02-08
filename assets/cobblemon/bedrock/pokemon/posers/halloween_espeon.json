@@ -1,0 +1,27 @@
+{
+ "portraitScale": 1.7,
+ "portraitTranslation": [-0.44, .05, 0],
+ "profileScale": 1,
+ "profileTranslation": [0, 0, 0],
+ "poses": {
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('halloween_espeon', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('halloween_espeon', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('halloween_espeon', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('halloween_espeon', 'blink')"]
+   }
+ }
+}

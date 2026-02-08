@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:steelix",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:steelix",
+      "model": "cobblemon:1.6_steelix.geo",
+      "texture": "cobblemon:textures/pokemon/0208_steelix/1.6_steelix.png",
+      "layers": []
+    },
+    {
+      "aspects": ["crystalcrate"],
+      "poser": "cobblemon:steelix",
+      "model": "cobblemon:1.6_steelix.geo",
+      "texture": "cobblemon:textures/pokemon/crystalcrate/steelix.png",
+      "layers": []
+    }
+  ]
+}
+

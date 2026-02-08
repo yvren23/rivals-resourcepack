@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:rayquaza",
-      "model": "cobblemon:rayquaza2.geo",
+      "model": "cobblemon:rayquaza.geo",
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza.png",
       "layers": []
     },
     {
       "aspects": ["shiny"],
       "poser": "cobblemon:rayquaza",
-      "model": "cobblemon:rayquaza2.geo",
+      "model": "cobblemon:rayquaza.geo",
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/rayquaza_shiny.png",
       "layers": []
     }

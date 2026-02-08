@@ -4,14 +4,14 @@
   "variations": [
     {
       "aspects": ["rivalcrate"],
-      "poser": "cobblemon:slaking",
+      "poser": "cobblemon:rival_slaking",
       "model": "cobblemon:slaking_rival.geo",
       "texture": "cobblemon:textures/pokemon/rivalcrate/slaking.png",
       "layers": []
     },
     {
       "aspects": ["brainrot"],
-      "poser": "cobblemon:slaking",
+      "poser": "cobblemon:rival_slaking",
       "model": "cobblemon:slaking_brainrot.geo",
       "texture": "cobblemon:textures/pokemon/brainrot/slaking.png",
       "layers": []

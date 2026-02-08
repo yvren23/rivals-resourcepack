@@ -19,7 +19,7 @@
     {
       "aspects": ["crystalcrate"],
       "poser": "cobblemon:pikachu",
-      "model": "cobblemon:pikachu_male.geo",
+      "model": "cobblemon:1.6_pikachu_male.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/pikachu.png",
       "layers": []
     }
