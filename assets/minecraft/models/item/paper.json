@@ -4,7 +4,6 @@
         "layer0":"minecraft:item/paper"
     },
     "overrides":[
-    {"predicate":{"custom_model_data":2},"model":"journey:item/empty"},
 	{
       "model": "item/flourish/abomasite",
       "predicate": {
@@ -726,4 +725,5 @@
       }
     }
     ]
+
 }
