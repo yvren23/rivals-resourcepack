@@ -19,7 +19,7 @@
     {
       "aspects": ["crystalcrate"],
       "poser": "cobblemon:raichu",
-      "model": "cobblemon:raichu_male.geo",
+      "model": "cobblemon:1.6_raichu_male.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/raichu.png",
       "layers": []
     }

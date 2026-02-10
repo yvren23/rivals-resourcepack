@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": ["crystalcrate"],
-      "poser": "cobblemon:honedge",
-      "model": "cobblemon:honedge.geo",
+      "poser": "cobblemon:1.6_honedge",
+      "model": "cobblemon:1.6_honedge.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/honedge.png",
       "layers": [
         {

@@ -1,0 +1,60 @@
+{
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.1, 1.2, 0],
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.9, 0],
+
+  "animations": {
+    "faint": "q.bedrock_primary('drifloonvalentines2026', 'faint', q.curve('one'))"
+  },
+
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "condition": "!q.in_air",
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('drifloonvalentines2026', 'ground_idle')"
+      ]
+    },
+
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "condition": "!q.in_air",
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('drifloonvalentines2026', 'ground_walk')"
+      ]
+    },
+
+    "air-idle": {
+      "poseName": "air-idle",
+      "poseTypes": ["HOVER", "FLOAT", "STAND", "NONE"],
+      "condition": "q.in_air",
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('drifloonvalentines2026', 'air_idle')"
+      ]
+    },
+
+    "air-fly": {
+      "poseName": "air-fly",
+      "poseTypes": ["FLY", "SWIM", "WALK"],
+      "condition": "q.in_air",
+      "transformTicks": 10,
+      "animations": [
+        "q.bedrock('drifloonvalentines2026', 'air_fly')"
+      ]
+    },
+
+    "sleep": {
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"],
+      "animations": [
+        "q.bedrock('drifloonvalentines2026', 'sleep')"
+      ]
+    }
+  }
+}

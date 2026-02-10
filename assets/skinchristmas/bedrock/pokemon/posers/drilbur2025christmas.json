@@ -1,0 +1,20 @@
+{
+  "portraitScale": 1.72,
+  "portraitTranslation": [-0.09, -0.19, 0.0],
+  "profileScale": 0.62,
+  "profileTranslation": [0.0, 0.84, 0.0],
+  "faint": "bedrock(drilbur2025christmas, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "animations": ["bedrock(drilbur2025christmas, ground_idle)"]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": ["WALK"],
+      "animations": ["bedrock(drilbur2025christmas, ground_walk)"]
+    }
+  }
+}

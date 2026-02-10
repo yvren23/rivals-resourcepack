@@ -7,14 +7,28 @@
       "poser": "cobblemon:megarayquaza",
       "model": "cobblemon:mega_ray.geo",
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/megarayquaza.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0384_rayquaza/megarayquaza_emissive.png",
+          "translucent": false
+        }
+      ]
     },
     {
       "aspects": ["shiny", "mega"],
       "poser": "cobblemon:megarayquaza",
       "model": "cobblemon:mega_ray.geo",
       "texture": "cobblemon:textures/pokemon/0384_rayquaza/megarayquaza_shiny.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0384_rayquaza/megarayquaza_shiny_emissive.png",
+          "translucent": false
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,6 @@
+{	
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rivals:item/events/valentines/valentines_candy"
+  }
+}

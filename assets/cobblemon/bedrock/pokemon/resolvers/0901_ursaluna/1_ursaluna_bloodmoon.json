@@ -19,12 +19,36 @@
       "aspects": ["bloodmoon", "shiny"],
       "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_shiny.png",
       "layers": [
-				{
-					"name": "emissive",
+	{
+	  "name": "emissive",
           "emissive": true,
-					"texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_emissive.png"
-				  }
-			]
+	  "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_emissive.png"
+         }
+      ]
+    },
+    {
+      "aspects": ["bloodmoon", "champion"],
+      "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_champion.png",
+      "layers": [
+	{
+	  "name": "emissive",
+          "emissive": true,
+	  "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_champion_emissive.png",
+          "translucent": true
+         }
+      ]
+    },
+    {
+      "aspects": ["bloodmoon", "champion", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_champion_shiny.png",
+      "layers": [
+	{
+	  "name": "emissive",
+          "emissive": true,
+	  "texture": "cobblemon:textures/pokemon/0901_ursaluna/ursaluna_bloodmoon_champion_shiny_emissive.png",
+          "translucent": true
+         }
+      ]
     }
   ]
 }

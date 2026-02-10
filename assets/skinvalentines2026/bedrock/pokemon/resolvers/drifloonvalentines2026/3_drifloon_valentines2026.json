@@ -1,0 +1,25 @@
+{
+  "species": "cobblemon:drifloon",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "skin_valentines2026"
+      ],
+      "poser": "skinvalentines2026:drifloonvalentines2026",
+      "model": "skinvalentines2026:drifloonvalentines2026.geo",
+      "texture": "skinvalentines2026:textures/pokemon/drifloonvalentines2026/drifloon_valentines2026.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin_valentines2026"
+      ],
+      "poser": "skinvalentines2026:drifloonvalentines2026",
+      "model": "skinvalentines2026:drifloonvalentines2026.geo",
+      "texture": "skinvalentines2026:textures/pokemon/drifloonvalentines2026/drifloon_shiny_valentines2026.png",
+      "layers": []
+    }
+  ]
+}

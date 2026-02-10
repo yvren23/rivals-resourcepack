@@ -1,0 +1,31 @@
+{
+  "species": "cobblemon:tyrantrum",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["deepsea"],
+      "poser": "cobblemon:tyrantrum",
+      "model": "cobblemon:tyrantrum_deep_sea.geo",
+      "texture": "cobblemon:textures/pokemon/0697_tyrantrum/tyrantrum_deepsea.png",
+      "layers": []
+    },
+    {
+      "aspects": ["deepsea", "emissive"],
+      "texture": "cobblemon:textures/pokemon/0697_tyrantrum/tyrantrum_deepsea_emissive.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": ["deepsea", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0697_tyrantrum/tyrantrum_shiny_deepsea.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": ["deepsea", "shiny", "emissive"],
+      "texture": "cobblemon:textures/pokemon/0697_tyrantrum/tyrantrum_shiny_deepsea_emissive.png",
+      "layers": [
+      ]
+    }
+  ]
+}

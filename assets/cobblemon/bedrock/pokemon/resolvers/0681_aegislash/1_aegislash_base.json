@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": ["crystalcrate"],
-      "poser": "cobblemon:aegislash",
-      "model": "cobblemon:aegislash.geo",
+      "poser": "cobblemon:1.6_aegislash",
+      "model": "cobblemon:1.6_aegislash.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/aegislash.png",
       "layers": [
         {

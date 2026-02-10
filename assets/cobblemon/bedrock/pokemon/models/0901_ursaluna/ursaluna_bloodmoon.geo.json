@@ -626,6 +626,27 @@
 					]
 				},
 				{
+					"name": "locator_seat_1",
+					"parent": "upper_body",
+					"pivot": [0, 20.5, -20],
+					"rotation": [52.5, 0, 0],
+					"locators": {
+						"seat_1": [0, 20.5, -20]
+					}
+				},
+				{
+					"name": "locator_seat_2",
+					"parent": "upper_body",
+					"pivot": [0, 32, -9],
+					"rotation": [-42.5, 0, 0],
+					"locators": {
+						"seat_2": {
+							"offset": [0, 32, -12],
+							"rotation": [50, 0, 0]
+						}
+					}
+				},
+				{
 					"name": "tail",
 					"parent": "hip",
 					"pivot": [0, 21.5, 19],

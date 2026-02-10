@@ -6,7 +6,7 @@
          "aspects":[
             "halloweencrate"
          ],
-         "poser":"cobblemon:espeon",
+         "poser":"cobblemon:halloween_espeon",
          "model":"cobblemon:halloween_espeon.geo",
          "texture":"cobblemon:textures/pokemon/halloweencrate/espeon.png",
          "layers":[]
@@ -15,7 +15,7 @@
          "aspects":[
             "halloweencrate" , "shiny"
          ],
-         "poser":"cobblemon:espeon",
+         "poser":"cobblemon:halloween_espeon",
          "model":"cobblemon:halloween_espeon.geo",
          "texture":"cobblemon:textures/pokemon/halloweencrate/espeon_shiny.png",
          "layers":[]

@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:umbreon",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": [
+        "skin_valentines2026"
+      ],
+      "poser": "cobblemon:umbreon",
+      "model": "skinvalentines2026:umbreonvalentines2026.geo",
+      "texture": "skinvalentines2026:textures/pokemon/umbreonvalentines2026/umbreon_valentines2026.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinvalentines2026:textures/pokemon/umbreonvalentines2026/umbreon_emissives_valentines2026.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "skin_valentines2026"
+      ],
+      "poser": "cobblemon:umbreon",
+      "model": "skinvalentines2026:umbreonvalentines2026.geo",
+      "texture": "skinvalentines2026:textures/pokemon/umbreonvalentines2026/umbreon_shiny_valentines2026.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "skinvalentines2026:textures/pokemon/umbreonvalentines2026/umbreon_shiny_emissives_valentines2026.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

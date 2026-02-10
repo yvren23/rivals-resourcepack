@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": ["crystalcrate"],
-      "poser": "cobblemon:doublade",
-      "model": "cobblemon:doublade.geo",
+      "poser": "cobblemon:1.6_doublade",
+      "model": "cobblemon:1.6_doublade.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/doublade.png",
       "layers": [
         {
