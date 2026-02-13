@@ -5,7 +5,7 @@
     {
       "aspects": ["crystalcrate"],
       "poser": "cobblemon:mew",
-      "model": "cobblemon:mew.geo",
+      "model": "cobblemon:1.6_mew.geo",
       "texture": "cobblemon:textures/pokemon/crystalcrate/mew.png",
       "layers": [
         {
@@ -31,10 +31,11 @@
     {
       "aspects": ["shadowlegend"],
       "poser": "cobblemon:mew",
-      "model": "cobblemon:mew.geo",
+      "model": "cobblemon:1.6_mew.geo",
       "texture": "cobblemon:textures/pokemon/shadowlegend/mew.png",
       "layers": []
     }
   ]
 }
+
 
