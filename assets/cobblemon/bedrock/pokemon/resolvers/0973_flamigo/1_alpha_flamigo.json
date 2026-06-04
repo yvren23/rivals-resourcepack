@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:flamigo",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["summercrate"],
+      "poser": "cobblemon:flamigo",
+      "model": "cobblemon:alpha_flamigo.geo",
+      "texture": "cobblemon:textures/pokemon/0973_flamigo/alpha_flamigo.png",
+      "layers": []
+    },
+    {
+      "aspects": ["summercrate", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0973_flamigo/alpha_flamigo_shiny.png",
+      "layers": []
+    }
+  ]
+}
+
+
