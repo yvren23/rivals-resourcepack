@@ -248,8 +248,8 @@
         {
             "type": "bitmap",
             "file": "cobblemonrivalsgui:gui/servers/resourceworld.png",
-            "ascent": 7,
-            "height": 7,
+            "ascent": 9,
+            "height": 11,
             "chars": [""]
         },
         {
