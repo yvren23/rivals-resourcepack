@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["mega"],
-      "poser": "cobblemon:emboar",
+      "poser": "cobblemon:mega_emboar",
       "model": "cobblemon:mega_emboar.geo",
       "texture": "cobblemon:textures/pokemon/0500_emboar/mega_emboar.png",
       "layers": [
