@@ -1,0 +1,113 @@
+{
+  "portraitScale": 1.3,
+  "portraitTranslation": [-0.7, 1.1, 0],
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.84, -10],
+  "rootBone": "mega_feraligatr",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "surface_float": {
+      "poseTypes": ["STAND","FLOAT"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'watersurface_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "surface_swim": {
+      "poseTypes": ["WALK","SWIM"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'watersurface_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "float": {
+      "poseTypes": ["STAND","FLOAT"],
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "swim": {
+      "poseTypes": ["WALK","SWIM"],
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('mega_feraligatr', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('mega_feraligatr', 'blink')"
+      ]
+    },
+    "sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.bedrock('mega_feraligatr', 'sleep')"
+      ]
+    },
+    "water-sleep": {
+      "poseTypes": ["SLEEP"],
+      "isTouchingWater": true,
+      "animations": [
+        "q.bedrock('mega_feraligatr', 'water_sleep')"
+      ]
+    }
+  }
+}
