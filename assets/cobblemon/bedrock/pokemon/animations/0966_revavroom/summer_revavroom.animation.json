@@ -1,0 +1,16 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.summer_revavroom.ground_idle": {
+			"animation_length": 3,
+			"bones": {
+				"torso2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"3.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

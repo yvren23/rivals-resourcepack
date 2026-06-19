@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:electrode",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["hisuian", "summercrate"],
+      "poser": "cobblemon:electrode_hisuian",
+      "model": "cobblemon:summer_electrode_hisuian.geo",
+      "texture": "cobblemon:textures/pokemon/0101_electrode/summer_hisuian_electrode.png"
+    },
+    {
+      "aspects": ["hisuian", "summercrate", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0101_electrode/summer_hisuian_electrode_shiny.png"
+    }
+  ]
+}
+
