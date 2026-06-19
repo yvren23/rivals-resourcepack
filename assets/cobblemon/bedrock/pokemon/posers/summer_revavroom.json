@@ -1,0 +1,42 @@
+{
+  "portraitScale": 1.43,
+  "portraitTranslation": [-0.58, 0.25, 0],
+  "profileScale": 0.52,
+  "profileTranslation": [0.05, 0.8, 0],
+  "rootBone": "revavroom",
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "PROFILE",
+        "PORTRAIT",
+        "NONE"
+      ],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('summer_revavroom', 'ground_idle')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "isUnderWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('summer_revavroom', 'ground_idle')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "isTouchingWater": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('summer_revavroom', 'ground_idle')"
+      ]
+    }
+  }
+}
