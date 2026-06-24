@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:hawlucha",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "model": "cobblemon:mega_hawlucha.geo",
+      "poser": "cobblemon:mega_hawlucha",
+      "texture": "cobblemon:textures/pokemon/0701_hawlucha/mega_hawlucha.png"
+    },
+    {
+      "aspects": ["mega", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0701_hawlucha/mega_hawlucha_shiny.png"
+    }
+  ]
+}
