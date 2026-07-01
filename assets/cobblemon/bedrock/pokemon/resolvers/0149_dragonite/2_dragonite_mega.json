@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:dragonite",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "model": "cobblemon:mega_dragonite.geo",
+      "poser": "cobblemon:mega_dragonite",
+      "texture": "cobblemon:textures/pokemon/0149_dragonite/mega_dragonite.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0149_dragonite/mega_dragonite_translucent.png",
+          "tranlsucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["mega", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0149_dragonite/mega_dragonite_shiny.png",
+      "layers": [
+        {
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0149_dragonite/mega_dragonite_translucent_shiny.png",
+          "tranlsucent": true
+        }
+      ]
+    }
+  ]
+}
